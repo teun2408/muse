@@ -57,7 +57,7 @@ export default class {
         return;
       }
 
-      if (!msg.content.startsWith(prefix) || msg.author.bot || msg.channel.id !== channel) {
+      if (!msg.content.startsWith(prefix) || msg.channel.id !== channel) {
         return;
       }
 
